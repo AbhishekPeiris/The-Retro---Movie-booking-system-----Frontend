@@ -1,0 +1,27 @@
+.payment{
+    font-size: 20px;   
+}
+form{
+    height: 900px;
+    margin-top: 200px;
+}
+#fullname, #payAddress, #payPhone, #payemail, #crdtcrd, #EXPy, #CVV{
+    color: #f0007c;
+    width: 330px;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#pay{
+    margin-top: 50px;
+    color: white;
+    background-color: rgb(0, 0, 80);
+    width:330px;
+    height: 30px;
+}
+
+#pay:hover{
+    background-color: #f0007c;
+    transition: all 0.1s linear
+}

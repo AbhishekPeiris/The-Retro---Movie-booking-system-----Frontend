@@ -1,0 +1,68 @@
+.wrapper{
+  
+    max-width: 430px;
+    background: #fff;
+    padding: 34px;
+    border-radius: 6px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    position: relative;
+    top:350px;
+    
+  }
+  .wrapper h2{
+    font-size: 22px;
+    font-weight: 600;
+    color: #333;
+  }
+  .wrapper form .input-box{
+    height: 52px;
+    margin: 18px 0;
+  }
+  .reg .input-box input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #333;
+    border: 1.5px solid #C7BEBE;
+    border-bottom-width: 2.5px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+  }
+  .input-box input:focus,
+  .input-box input:valid{
+    border-color: #f0007c;
+  }
+
+  .reg h3{
+    color: #707070;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 10px;
+  }
+  .input-box.button input{
+    color: #fff;
+    letter-spacing: 1px;
+    border: none;
+    background: #000000;
+    cursor: pointer;
+  }
+  .input-box.button input:hover{
+    background-color: #f0007c;
+   
+  }
+  .reg .text h3{
+   color: #333;
+   width: 100%;
+   text-align: center;
+  }
+  .reg .text h3 a{
+    color: #f0007c;
+    text-decoration: none;
+  }
+  .reg .text h3 a:hover{
+    text-decoration: underline;
+
+  }
